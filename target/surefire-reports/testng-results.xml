@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-14T19:08:02 IST" name="Suite" finished-at="2025-07-14T19:08:18 IST" duration-ms="16015">
+    <groups>
+      <group name="Master">
+        <method signature="TC01_Register.Register()[pri:0, instance:testcases.TC01_Register@6572421]" name="Register" class="testcases.TC01_Register"/>
+        <method signature="TC02_Login.setup()[pri:0, instance:testcases.TC02_Login@dd8ba08]" name="setup" class="testcases.TC02_Login"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC01_Register.Register()[pri:0, instance:testcases.TC01_Register@6572421]" name="Register" class="testcases.TC01_Register"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC02_Login.setup()[pri:0, instance:testcases.TC02_Login@dd8ba08]" name="setup" class="testcases.TC02_Login"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-07-14T19:08:02 IST" name="Test" finished-at="2025-07-14T19:08:18 IST" duration-ms="16015">
+      <class name="testcases.TC01_Register">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC01_Register@6572421]" started-at="2025-07-14T19:08:02 IST" name="setup" finished-at="2025-07-14T19:08:07 IST" duration-ms="4639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Register()[pri:0, instance:testcases.TC01_Register@6572421]" started-at="2025-07-14T19:08:07 IST" name="Register" finished-at="2025-07-14T19:08:10 IST" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testcases.TC01_Register@6572421]" started-at="2025-07-14T19:08:11 IST" name="flush" finished-at="2025-07-14T19:08:11 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testcases.TC01_Register -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC02_Login@dd8ba08]" started-at="2025-07-14T19:08:11 IST" name="setup" finished-at="2025-07-14T19:08:15 IST" duration-ms="4440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setup()[pri:0, instance:testcases.TC02_Login@dd8ba08]" started-at="2025-07-14T19:08:15 IST" name="setup" finished-at="2025-07-14T19:08:18 IST" duration-ms="2524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testcases.TC02_Login@dd8ba08]" started-at="2025-07-14T19:08:18 IST" name="flush" finished-at="2025-07-14T19:08:18 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-14T18:21:20 IST" name="Suite" finished-at="2025-07-14T18:21:38 IST" duration-ms="18084">
+    <groups>
+      <group name="Master">
+        <method signature="TC01_Register.Register()[pri:0, instance:testcases.TC01_Register@3a52dba3]" name="Register" class="testcases.TC01_Register"/>
+        <method signature="TC02_Login.setup()[pri:0, instance:testcases.TC02_Login@710f4dc7]" name="setup" class="testcases.TC02_Login"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC01_Register.Register()[pri:0, instance:testcases.TC01_Register@3a52dba3]" name="Register" class="testcases.TC01_Register"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC02_Login.setup()[pri:0, instance:testcases.TC02_Login@710f4dc7]" name="setup" class="testcases.TC02_Login"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-07-14T18:21:20 IST" name="Test" finished-at="2025-07-14T18:21:38 IST" duration-ms="18084">
+      <class name="testcases.TC01_Register">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC01_Register@3a52dba3]" started-at="2025-07-14T18:21:21 IST" name="setup" finished-at="2025-07-14T18:21:27 IST" duration-ms="6483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Register()[pri:0, instance:testcases.TC01_Register@3a52dba3]" started-at="2025-07-14T18:21:27 IST" name="Register" finished-at="2025-07-14T18:21:30 IST" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testcases.TC01_Register@3a52dba3]" started-at="2025-07-14T18:21:30 IST" name="flush" finished-at="2025-07-14T18:21:31 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testcases.TC01_Register -->
+      <class name="testcases.TC02_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC02_Login@710f4dc7]" started-at="2025-07-14T18:21:31 IST" name="setup" finished-at="2025-07-14T18:21:35 IST" duration-ms="4567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setup()[pri:0, instance:testcases.TC02_Login@710f4dc7]" started-at="2025-07-14T18:21:35 IST" name="setup" finished-at="2025-07-14T18:21:38 IST" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testcases.TC02_Login@710f4dc7]" started-at="2025-07-14T18:21:38 IST" name="flush" finished-at="2025-07-14T18:21:38 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
